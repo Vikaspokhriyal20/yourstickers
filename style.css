@@ -29,6 +29,13 @@ li
   list-style: none;
 }
 
+.flex
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .top-header
 {
@@ -43,6 +50,7 @@ li
   color: #000;
   text-transform: capitalize;
   text-align: center;
+  font-family: dosis;
 }
 
 /* navbar style */
@@ -52,6 +60,17 @@ li
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.mylogo
+{
+  width: 2rem;
+}
+
+.logo-txt
+{
+  letter-spacing: 1.2px;
+  color: blueviolet;
 }
 
 .logo .logo-img
@@ -228,6 +247,7 @@ li
     width: 4rem;
   }
 }
+
 
 
 
