@@ -20,7 +20,7 @@
 a
 {
   text-decoration: none;
-  color: blueviolet;
+  color: black;
   letter-spacing: 0.8px;
 }
 
@@ -32,14 +32,15 @@ li
 
 .top-header
 {
-  background-color: blueviolet;
+  /* background-image: linear-gradient(to right, #FFF1E2, #FFE4DE); */
+  background-image: linear-gradient(to right, #FAE3FF, #D3BBFB);
 }
 
 .top-header-content p
 {
   font-size: 1rem;
   letter-spacing: 0.8px;
-  color: #fff;
+  color: #000;
   text-transform: capitalize;
   text-align: center;
 }
@@ -89,7 +90,7 @@ li
   display: grid;
   grid-template-columns: repeat(2 , 1fr);
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .hero-img-grid img
@@ -171,6 +172,13 @@ li
   letter-spacing: 0.8px;
 }
 
+.title-txt-hero
+{
+  font-size: 0.9rem;
+  filter: drop-shadow(2px 2px 2px #D3BBFB);
+
+}
+
 .hero-heading
 {
   letter-spacing: 0.8px;
@@ -207,7 +215,7 @@ li
 
   .hero-heading
   {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .hero-para
